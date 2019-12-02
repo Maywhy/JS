@@ -1,12 +1,12 @@
-var num = 0;
+var i = 0
 
-funciton novatarefa(){
-    num++;
-    var nometarefa = document.getElementById("nomedatarefa").value;
-    var novalinha =
+function novaTarefa(){
 
-        novalinha = novalinha.replace("**numSequencia**", num);
-    novalinha = novalinha.replace("**tituloDaTarefa**", nomeTarefa);
+    var texto = document.getElementById("texto").value;
 
-    document.getElementById("lista").innerHTML += novalinha;
+    var tudoJunto = "<div class='input-group mb-3'><div class='input-group-prepend'><div class='input-group-text'><input type='checkbox' aria-label='Checkbox for following text input'></div></div><input type='text' class='form-control' aria-label='Text input with checkbox' value="+texto+"></div>";
+
+
+
+    document.getElementById("chamar").innerHTML += tudoJunto; 
 }
